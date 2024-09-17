@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+:root{
+    --color-orange: #FF651C;
+    --bg-gray: #f7f7f7;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    line-height: 26px;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    color: #333333;
+}
+a{
+    text-decoration: none;
+}
+section{
+    padding: 80px 0px;
+    width: 100%;
+}
+.slick-dots li button {
+    width: 10px; /* ширина квадрата */
+    height: 10px; /* высота квадрата */
+    border-radius: 0; /* квадратная форма */
+    background-color: var(--color-orange); /* цвет */
+    border: none; /* убираем границу */
+    margin: 0 5px; /* отступ между точками */
+}
+.slick-dots li.slick-active button {
+    background-color: #cd4100; /* цвет активной точки */
+}
+.slick-dots li button::before {
+    content: ''; /* убираем содержимое */
+    display: block;
+    width: 100%; /* занимает всю ширину квадрата */
+    height: 100%; /* занимает всю высоту квадрата */
+    background-color: transparent; /* прозрачный фон */
+}

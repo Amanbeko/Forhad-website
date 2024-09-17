@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forhad</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+    <link rel="stylesheet" href="style/all.css">
+</head>
+<body>
+    <header>
+        <a href="" class="header-logo">Forhad</a>
+        <div class="navigation-bar">
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Service</li>
+                <li>Resume</li>
+                <li>Portfolio</li>
+                <li>Blog</li>
+                <li>Contact</li>
+            </ul>
+        </div>
+        <button onclick="changeBurger()" class="burger-menu">
+            <i class="bi bi-list"></i>
+            <ul class="burger-modal">
+                <li>Home</li>
+                <li>About</li>
+                <li>Service</li>
+                <li>Resume</li>
+                <li>Portfolio</li>
+                <li>Blog</li>
+                <li>Contact</li>
+            </ul>
+        </button>
+    </header>
+    <main>
+        <div class="main-container">
+            <h3>Welcome</h3>
+            <h1>I Am <span id="output"></span>|</h1>
+            <div class="banner_buttons">
+                <a href="" class="base-button">View Work</a>
+                <a href="" class="base-button">Hire Me</a>
+            </div>
+        </div>
+    </main>
+    <section class="section_about-me">
+        <div class="base-heading">
+            <h1>About <span>Me</span></h1>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting <br>industry. Lorem Ipsum standard dummy text.</p>
+            <div class="base-line"></div>
+        </div>
+        <div class="aboutme-container">
+            <div class="aboutme-img">
+                <img src="./img/ManWithLaptop.jpg" alt="">
+            </div>
+            <div class="aboutme-info">
+                <h4>Hello, I Am <span>Forhad Hossain</span></h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer tellus est, finibus ut congue sed, faucibus ut dui. Sed congue nisl dolor, id dapibus leo elementum posuere. Ut aliquam metus quis laoreet elementum. In hac habitasse platea dictumst. In hac habitasse platea dictumst.</p>
+                <div class="aboutme-details">
+                    <p class="aboutme-detail">
+                        <span>Name</span>: Forhad Hossain
+                    </p>
+                    <p class="aboutme-detail">
+                        <span>Age</span>: 26
+                    </p>
+                    <p class="aboutme-detail">
+                        <span>Address</span>: Dhaka, Bangladesh
+                    </p>
+                    <p class="aboutme-detail">
+                        <span>Phone Number</span>: +00 530-445-9283
+                    </p>
+                    <p class="aboutme-detail">
+                        <span>Email</span>: info@example.com
+                    </p>
+                </div>
+                <a href="" class="base-button">Download Cv</a>
+            </div>
+        </div>
+    </section>
+    <section class="section_my-servises">
+        <div class="base-heading">
+            <h1>My <span>Services</span></h1>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting <br>industry. Lorem Ipsum standard dummy text.</p>
+            <div class="base-line"></div>
+        </div>
+        <button class="prev-btn myservices-prev-btn">&#10094;</button>
+        <div class="myservices-container">
+            <div class="myservices-card">
+                <i class="bi bi-code-slash"></i>
+                <h4>Web Design</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+            <div class="myservices-card">
+                <i class="bi bi-brush-fill"></i>
+                <h4>Graphic Design</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+            <div class="myservices-card">
+                <i class="bi bi-camera-fill"></i>
+                <h4>Photography</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+            <div class="myservices-card">
+                <i class="bi bi-megaphone-fill"></i>
+                <h4>Digital Marketing</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+            <div class="myservices-card">
+                <i class="bi bi-chevron-bar-right"></i>
+                <h4>Motion Art</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+            <div class="myservices-card">
+                <i class="bi bi-life-preserver"></i>
+                <h4>Excellent Support</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+        </div>
+        <button class="next-btn myservices-next-btn">&#10095;</button>
+    </section>
+    <section class="section_my-resume">
+        <div class="base-heading">
+            <h1>My <span>Resume</span></h1>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting <br>industry. Lorem Ipsum standard dummy text.</p>
+            <div class="base-line"></div>
+        </div>
+        <div class="myresume-container">
+            <div class="myresume-card_heading">
+                <h3><i class="bi bi-mortarboard-fill"></i>Education:</h3>
+                <h3><i class="bi bi-wordpress"></i>Experience:</h3>
+            </div>
+            <div class="myresume-cards">
+                <div class="myresume-card">
+                    <strong>2000 - 2005</strong>
+                    <h5>Computer science</h5>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim <br>eveniet incidunt quidem illum repellat, a nemo cumque optio <br>asperiores tempora delectus cupiditate</p>
+                </div>
+                <div class="myresume-card">
+                    <strong>2014 - 2015</strong>
+                    <h5>Google company, Melbourne</h5>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim <br>eveniet incidunt quidem illum repellat, a nemo cumque optio <br>asperiores tempora delectus cupiditate</p>
+                </div>
+                <div class="myresume-card">
+                    <strong>2006 - 2009</strong>
+                    <h5>Computer science</h5>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim <br>eveniet incidunt quidem illum repellat, a nemo cumque optio <br>asperiores tempora delectus cupiditate</p>
+                </div>
+                <div class="myresume-card">
+                    <strong>2016 - 2017</strong>
+                    <h5>Google company, Melbourne</h5>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim <br>eveniet incidunt quidem illum repellat, a nemo cumque optio <br>asperiores tempora delectus cupiditate</p>
+                </div>
+                <div class="myresume-card">
+                    <strong>2010 - 2013</strong>
+                    <h5>Computer science</h5>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim <br>eveniet incidunt quidem illum repellat, a nemo cumque optio <br>asperiores tempora delectus cupiditate</p>
+                </div>
+                <div class="myresume-card">
+                    <strong>2018 - 2019</strong>
+                    <h5>Google company, Melbourne</h5>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim <br>eveniet incidunt quidem illum repellat, a nemo cumque optio <br>asperiores tempora delectus cupiditate</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section_my-portfolio">
+        <div class="base-heading">
+            <h1>My <span>Portfolio</span></h1>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting <br>industry. Lorem Ipsum standard dummy text.</p>
+            <div class="base-line"></div>
+        </div>
+        <div class="myportfolio-container">
+            <div class="portfolio-filters">
+                <ul>
+                    <li>All</li>
+                    <li>Branding</li>
+                    <li>Application</li>
+                    <li>Development</li>
+                </ul>
+            </div>
+            <div class="portfolio-cards">
+                <button onclick="changeImg(-1)" class="prev-btn">-</button>
+                <div class="portfolio-card">
+                    <img id="slider-image" alt="" />
+                    <div class="portfolio-card_bg">
+                        <i class="bi bi-plus"></i>
+                    </div>
+                </div>
+                <button onclick="changeImg(1)" class="next-btn">+</button>
+            </div>
+        </div>
+    </section>
+    <section class="section_counter-area">
+        <div class="counter-container">
+            <div class="counter_item">
+                <h3  class="item-count" data-num="90">0</h3>
+                <h5>Successul Projects</h5>
+            </div>
+            <div class="counter_item">
+                <h3  class="item-count" data-num="620">0</h3>
+                <h5>Happy Clients</h5>
+            </div>
+            <div class="counter_item">
+                <h3  class="item-count" data-num="60">0</h3>
+                <h5>Awards Received</h5>
+            </div>
+            <div class="counter_item">
+                <h3  class="item-count" data-num="520">0</h3>
+                <h5>Customer</h5>
+            </div>
+        </div>
+    </section>
+    <section class="section_latest-blog">
+        <div class="base-heading">
+            <h1>Latest <span>Blog</span></h1>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting <br>industry. Lorem Ipsum standard dummy text.</p>
+            <div class="base-line"></div>
+        </div>
+        <div class="latestblog-container">
+            <div class="latestblog-card">
+                <div class="latestblog-img">
+                    <img src="./img/LatestBlog1.jpg" alt="">
+                </div>
+                <div class="latestblog-info">
+                    <span><i class="bi bi-stopwatch"></i>December 31, 2024 <strong>| Design</strong></span>
+                    <h4>Best CMS For Designers</h4>
+                    <p>Lorem ipsum dolor sit amet,<br>consectetur adipisicing elit. Enim<br>eveniet incidunt quidem illum repellat</p>
+                    <a href="" class="base-button">Read More</a>
+                </div>
+            </div>
+            <div class="latestblog-card">
+                <div class="latestblog-img">
+                    <img src="./img/LatestBlog2.jpg" alt="">
+                </div>
+                <div class="latestblog-info">
+                    <span><i class="bi bi-stopwatch"></i>December 31, 2024 <strong>| Work</strong></span>
+                    <h4>Importance Of UI / UX</h4>
+                    <p>Lorem ipsum dolor sit amet,<br>consectetur adipisicing elit. Enim<br>eveniet incidunt quidem illum repellat</p>
+                    <a href="" class="base-button">Read More</a>
+                </div>
+            </div>
+            <div class="latestblog-card">
+                <div class="latestblog-img">
+                    <img src="./img/LatestBlog3.jpg" alt="">
+                </div>
+                <div class="latestblog-info">
+                    <span><i class="bi bi-stopwatch"></i>December 31, 2024 <strong>| Creative</strong></span>
+                    <h4>Recent Website Trends</h4>
+                    <p>Lorem ipsum dolor sit amet,<br>consectetur adipisicing elit. Enim<br>eveniet incidunt quidem illum repellat</p>
+                    <a href="" class="base-button">Read More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section_contact-us">
+        <div class="base-heading">
+            <h1>Contact <span>Us</span></h1>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting <br>industry. Lorem Ipsum standard dummy text.</p>
+            <div class="base-line"></div>
+        </div>
+        <div class="contactus-container">
+            <div class="contactus-inputs">
+                <input type="text" placeholder="Name">
+                <input type="email" placeholder="Email">
+                <input type="text" placeholder="Subject">
+            </div>
+            <textarea name="" id="" placeholder="Your Message"></textarea>
+            <button class="base-button">Send Message</button>
+        </div>
+    </section>
+    <footer>
+        <p>CopyRight © 2024 Forhad | All Rights Reserved</p>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script type="text/javascript" src="slick/slick.min.js"></script>
+    <script src="js/burger_menu.js"></script>
+    <script src="js/slider.js"></script>
+    <script src="js/counter.js"></script>
+    <script src="js/typewriter.js"></script>
+</body>
+</html>
